@@ -1,0 +1,52 @@
+const { test, expect } = require('@playwright/test');
+
+test.describe('KKZRT Tesztek', () => {
+  let page;
+
+  test.beforeEach(async ({ page: testPage }) => {
+    page = testPage;
+    
+    // Bejelentkezés
+    await page.goto('http://localhost/kkzrt/login.php');
+    await page.fill('input[type="email"]', 'teszt@example.com');
+    await page.fill('input[type="password"]', 'jelszo123');
+    
+    await Promise.all([
+      page.waitForNavigation({ waitUntil: 'networkidle' }),
+      page.click('text=Bejelentkezés')
+    ]);
+  });
+
+  test('Alapvető oldalelemek ellenőrzése', async () => {
+    await page.goto('http://localhost/kkzrt/terkep.php');
+    await expect(page.locator('text=Kaposvár Mobil Útitárs')).toBeVisible();
+  });
+
+  test('Útvonaltervező mezők ellenőrzése', async () => {
+    await page.goto('http://localhost/kkzrt/terkep.php');
+    await expect(page.locator('text="Indulási pont"')).toBeVisible();
+    await expect(page.locator('text="Érkezési pont"')).toBeVisible();
+  });
+
+  test('Menetrend oldal funkciók', async () => {
+    await page.goto('http://localhost/kkzrt/menetrend.php');
+    
+    const routeSelect = page.locator('#route-select');
+    await expect(routeSelect).toBeVisible();
+    await expect(page.locator('input[type="date"]')).toBeVisible();
+    await expect(page.locator('#stops-list')).toBeVisible();
+  });
+
+  test('Navigációs menü működése', async () => {
+    await page.goto('http://localhost/kkzrt/');
+    await expect(page.locator('nav')).toContainText('Menetrend');
+    await expect(page.locator('nav')).toContainText('Térkép');
+  });
+
+  test('Footer linkek ellenőrzése', async () => {
+    await page.goto('http://localhost/kkzrt/');
+    const footer = page.locator('footer');
+    await expect(footer).toBeVisible();
+    await expect(footer.locator('a:has-text("Kapcsolat")')).toBeVisible();
+  });
+});
