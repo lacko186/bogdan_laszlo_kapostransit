@@ -49,26 +49,26 @@
    - 4.2 Célállomás kiválasztása
    - 4.3 Járatállapot figyelő
 
-6. [Mobil kompatibilitás](#6-mobil-kompatibilitás)
-   - 6.1 Reszponzív dizájn
+5. [Mobil kompatibilitás](#6-mobil-kompatibilitás)
+   - 5.1 Reszponzív dizájn
 
-7. [Biztonsági és adatvédelmi szabályzat](#7-biztonsági-és-adatvédelmi-szabályzat)
-   - 7.1 Felhasználói adatok védelme
-   - 7.2 Adatkezelési tájékoztató
+6. [Biztonsági és adatvédelmi szabályzat](#7-biztonsági-és-adatvédelmi-szabályzat)
+   - 6.1 Felhasználói adatok védelme
+   - 6.2 Adatkezelési tájékoztató
 
-8. [Hibakeresés és támogatás](#8-hibakeresés-és-támogatás)
-   - 8.1 Gyakori hibajelenségek
-   - 8.2 Ügyfélszolgálati elérhetőségek
+7. [Hibakeresés és támogatás](#8-hibakeresés-és-támogatás)
+   - 7.1 Gyakori hibajelenségek
+   - 7.2 Ügyfélszolgálati elérhetőségek
 
-9. [Fejlesztési tervek](#9-fejlesztési-tervek)
-   - 9.1 Jövőbeni funkciók
-   - 9.2 Felhasználói visszajelzések kezelése
-   - 9.3 Mobil alkalmazás lehetőségek
+8. [Fejlesztési tervek](#9-fejlesztési-tervek)
+   - 8.1 Jövőbeni funkciók
+   - 8.2 Felhasználói visszajelzések kezelése
+   - 8.3 Mobil alkalmazás lehetőségek
 
-10. [Melléklet](#10-melléklet)
-    - 10.1 Fogalomtár
-    - 10.2 Gyors hivatkozások
-    - 10.3 Kapcsolódó dokumentumok
+9. [Melléklet](#10-melléklet)
+    - 9.1 Fogalomtár
+    - 9.2 Gyors hivatkozások
+    - 9.3 Kapcsolódó dokumentumok
 
 ---
 
@@ -253,9 +253,9 @@ A KaposTransit menetrendjei túlmutatnak a hagyományos, statikus információsz
 
 A fő funkciók részletesen bemutatják, hogyan válik a KaposTransit egy átfogó, felhasználóbarát mobilitási megoldássá.
 
-## 6. Mobil kompatibilitás: mobilitás a mobilon
+## 5. Mobil kompatibilitás: mobilitás a mobilon
 
-### 6.1 Reszponzív dizájn: zökkenőmentes felhasználói élmény minden eszközön
+### 5.1 Reszponzív dizájn: zökkenőmentes felhasználói élmény minden eszközön
 
 A KaposTransit mobil kompatibilitása nem csupán egy technikai megoldás, hanem egy átfogó felhasználói élményt biztosító stratégia. A reszponzív dizájn alapelveit maximálisan érvényesítve hoztuk létre platformunkat, amely képes alkalmazkodni bármilyen eszköz képernyőméretéhez és felbontásához.
 
@@ -277,13 +277,85 @@ A KaposTransit mobil kompatibilitása nem csupán egy technikai megoldás, hanem
 
 #### Támogatott eszköztípusok
 - Okostelefonok (Android)
+
+<center>  
+
+<img src="SamsungZFold5Menetrend.jpg">  
+
+**Samsung Z Fold 5 Menetrend oldalon**
+
+<br><br>
+
+<img src="SamsungGalaxyS20UltraInfo.jpg">
+
+**Samsung Galaxy S20 Ultra Info oldalon**
+
+<br><br>
+
+<img src="Pixel7Indexen.jpg">
+
+**Pixel 7 Főoldalon**
+
+<br><br>
+
+<img src="SamsungGalaxyS8+Jaratok.jpg">
+
+**Samsung Galaxy S8+ Járatok oldalon**
+
+<br><br>
+
+<img src="IPhoneXRKeses.jpg">
+
+**IPhone XR Késés Igazolás oldalon**
+
+</center>
 - Táblagépek
+
+<center>
+
+<img src="IPadMiniMenetrend.jpg">
+
+**IPad Mini Menetrend oldalon**
+
+<br><br>
+
+<img src="IPadProJaratok.jpg">
+
+
+ **IPad Pro Járatok oldalon**
+ 
+ <br><br>
+ 
+ <img src="AsusZenBookFoldKeses.jpg">
+
+
+ **Asus Zenbook Fold Késés igazolás oldalon**
+ 
+ </center>
+
 - Kisméretű és nagy képernyős eszközök
+
+<center>
+
+<img src="NestHubMaxIndexHirek.jpg">
+
+
+ **Nest Hub Max Főoldalon híreknél**
+ 
+ <br><br>
+ 
+ <img src="NestHubMaxInfo.jpg">
+
+
+ **Nest Hub Max Info oldalon**
+
+</center>
+
 - Érintőképernyős és hagyományos eszközök
 
-## 7. Biztonsági és adatvédelmi szabályzat: átláthatóság és biztonság
+## 6. Biztonsági és adatvédelmi szabályzat: átláthatóság és biztonság
 
-### 7.1 Felhasználói adatok védelme: bizalmas adatkezelés
+### 6.1 Felhasználói adatok védelme: bizalmas adatkezelés
 
 A KaposTransit elsődleges célja, hogy a legmagasabb szintű adatvédelmi és biztonsági standardokat alkalmazza, biztosítva felhasználóink személyes adatainak maximális védelmét.
 
@@ -303,7 +375,7 @@ A KaposTransit elsődleges célja, hogy a legmagasabb szintű adatvédelmi és b
    - E-mail cím
    - Jelszó az adott fiókhoz
 
-### 7.2 Adatkezelési tájékoztató: jogok és kötelezettségek
+### 6.2 Adatkezelési tájékoztató: jogok és kötelezettségek
 
 #### Adatkezelés részletei
 1. **Adattárolási időtartamok**
@@ -316,9 +388,9 @@ A KaposTransit elsődleges célja, hogy a legmagasabb szintű adatvédelmi és b
 A biztonsági és adatvédelmi szabályzat nem csupán egy dokumentum, hanem a KaposGo iránti elkötelezettségünk a felhasználói bizalom és adatbiztonság iránt.
 
 
-## 8. Hibakeresés és támogatás: átfogó felhasználói segítségnyújtás
+## 7. Hibakeresés és támogatás: átfogó felhasználói segítségnyújtás
 
-### 8.1 Gyakori hibajelenségek: diagnosztikai és megoldási útmutató
+### 7.1 Gyakori hibajelenségek: diagnosztikai és megoldási útmutató
 
 A KaposTransit célja, hogy a lehető legzökkenőmentesebb felhasználói élményt biztosítsa, ugyanakkor felkészültünk a felmerülő technikai kihívásokra is. Átfogó hibaelhárítási rendszerünk segít a felhasználóknak gyorsan és hatékonyan megoldani a felmerülő problémákat.
 
@@ -341,7 +413,7 @@ A KaposTransit célja, hogy a lehető legzökkenőmentesebb felhasználói élm�
    - Térképes adatok frissítése
    - Alternatív útvonalak keresése
 
-### 8.2 Ügyfélszolgálati elérhetőségek: komplex támogatási rendszer
+### 7.2 Ügyfélszolgálati elérhetőségek: komplex támogatási rendszer
 
 #### Támogatási csatornák
 1. **Telefonos ügyfélszolgálat**
@@ -358,9 +430,9 @@ A KaposTransit célja, hogy a lehető legzökkenőmentesebb felhasználói élm�
 
 A hibakeresés és támogatás nem csupán egy technikai folyamat, hanem a KaposTransit azon elkötelezettsége, hogy minden felhasználónk zökkenőmentes és élménydús utazást tudjon tervezni.
 
-## 9. Fejlesztési tervek: jövőbeni innovációk és stratégiai irányok
+## 8. Fejlesztési tervek: jövőbeni innovációk és stratégiai irányok
 
-### 9.1 Jövőbeni funkciók: technológiai horizont és innovációs stratégia
+### 8.1 Jövőbeni funkciók: technológiai horizont és innovációs stratégia
 
 A KaposTransit fejlesztési stratégiája nem csupán a jelenlegi igények kiszolgálásáról szól, hanem egy folyamatosan megújuló, előremutató mobilitási ökoszisztéma létrehozásáról. Fejlesztési terveink négy fő pillérre épülnek: technológiai innováció, felhasználói élmény, rendszerintegráció és fenntarthatóság.
 
@@ -415,7 +487,7 @@ A KaposTransit fejlesztési stratégiája nem csupán a jelenlegi igények kiszo
    - Komplex mobilitási szolgáltatások összekötése
    - Multimodális közlekedési megoldások
 
-### 9.2 Felhasználói visszajelzések kezelése: folyamatos fejlesztés és innováció
+### 8.2 Felhasználói visszajelzések kezelése: folyamatos fejlesztés és innováció
 
 #### Visszajelzési csatornák
 
@@ -445,7 +517,7 @@ A KaposTransit fejlesztési stratégiája nem csupán a jelenlegi igények kiszo
    - Folyamatos integrációs és telepítési eljárások
    - Rendszeres szoftverfrissítések
 
-### 9.3 Mobil alkalmazás lehetőségek: natív funkcionalitás
+### 8.3 Mobil alkalmazás lehetőségek: natív funkcionalitás
 
 A mobilalkalmazás nem csupán egy webes felület leképezése, hanem egy teljes értékű mobil megoldás, amely kihasználja az okoseszközök speciális képességeit.
 
@@ -468,9 +540,9 @@ A mobilalkalmazás nem csupán egy webes felület leképezése, hanem egy teljes
    
 A fejlesztési tervek nem csupán technológiai útitervet jelentenek, hanem a KaposTransit azon elkötelezettsége, hogy folyamatosan megújulva a lehető legmagasabb szintű mobilitási megoldásokat kínálja a felhasználók számára.
 
-## 10. Melléklet: Kiegészítő információk és referencia anyagok
+## 9. Melléklet: Kiegészítő információk és referencia anyagok
 
-### 10.1 Fogalomtár: Technikai és közlekedési kifejezések magyarázata
+### 9.1 Fogalomtár: Technikai és közlekedési kifejezések magyarázata
 
 A KaposTransit használata során számos speciális technikai és közlekedési kifejezéssel találkozhat a felhasználó. Az átláthatóság és könnyebb értelmezhetőség érdekében összeállítottunk egy átfogó fogalomtárat.
 
@@ -504,7 +576,7 @@ A KaposTransit használata során számos speciális technikai és közlekedési
    - Különböző közlekedési eszközök kombinált használata
    - Rugalmas és hatékony mobilitási megoldás
 
-### 10.2 Gyors hivatkozások: fontos elérhetőségek és linkek
+### 9.2 Gyors hivatkozások: fontos elérhetőségek és linkek
 
 #### Ügyfélszolgálati csatornák
 - **Telefonos Ügyfélszolgálat**: +36-82/411-850
@@ -515,7 +587,7 @@ A KaposTransit használata során számos speciális technikai és közlekedési
 - Felhasználási feltételek
 - Általános szerződési feltételek
 
-### 10.3 Kapcsolódó dokumentumok: kiegészítő forrásanyagok
+### 9.3 Kapcsolódó dokumentumok: kiegészítő forrásanyagok
 
 #### Technikai dokumentáció
 - **Fejlesztői Dokumentáció**
